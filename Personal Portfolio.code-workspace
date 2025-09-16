@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Downloads\\material-resume_free_1-2-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "restaurant menu page rutuja",
+		"liveServer.settings.port": 5502
+	}
+}

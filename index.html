@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konkani Food Restaurant Menu page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/dac310e544.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About & Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>
+            <span>Konkani Food Restaurant</span> <br />
+            Menu page
+          </h1>
+        </div>
+      </div>
+    </div>
+<!-- -------------------about page ---------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="food5.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About</h1>
+            <p>
+              The Konkan region nestled between the Sahyadri Mountains and
+              Arabian sea, stretching from Alibaug, Mumbai, Raigad, Sindhudurg,
+              Goa, North Kanara, Udupi and Kasaragod is known for its beautiful
+              coastline, temple architecture, silk and cotton weaving, leather
+              art and Konkani cuisine. This coastal line is lush with paddy
+              fields and coconut laden palms. The sea is teeming with pomfret,
+              jumbo prawns, lobster, mussels, clams and variety of sea food.
+              Cooking of this region and its communities revolves around
+              ingredients like coconut, rice, sea food, meats and fresh
+              vegetables. At the core of the cuisine are only the finest
+              ingredients, spices and vegetables of the season. The outcome
+              indeed is a celebration of senses, food that pleases the eye and
+              rewards the palate and is laden with irresistible aroma. The
+              ingredients and proportions mentioned for each recipe are based on
+              style of konkani cooking. I hope that people all over the world
+              whether Konkani or not find these recipes useful and tasty and
+              also the traditional flavors of konkani food from Konkan ad
+              ratnagiri are kept alive for many generations to come. Enjoy your
+              meal and savor the fresh taste of Konkan.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('menu1')">
+                BreakFast Menu
+              </p>
+              <p class="tab-links active-link" onclick="opentab('menu2')">
+                Meals Menu
+              </p>
+              <p class="tab-links active-link" onclick="opentab('menu3')">
+                Sea Food
+              </p>
+              <p class="tab-links active-link" onclick="opentab('menu4')">
+                Breads
+              </p>
+              <p class="tab-links active-link" onclick="opentab('menu5')">
+                Dosa
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="menu1">
+              <ul>
+                <li><span>Idli</span><br />Rs 20/-</li>
+                <li><span>Pohe</span><br />Rs 30/-</li>
+                <li><span>Vada pav</span><br />Rs 50/-</li>
+                <li><span>Masala vada</span><br />Rs 50/-</li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="menu2">
+              <ul>
+                <li><span>Ghee Rice</span><br />Rs 100/-</li>
+                <li><span>Dal Tadka</span><br />Rs 100/-</li>
+                <li><span>Moong And Palak Khichdi</span><br />Rs 100/-</li>
+                <li>
+                  <span>Paneer</span><br />
+                  Rs 100/-
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="menu3">
+              <ul>
+                <li><span>Mandeli Fry</span><br />Rs 200/-</li>
+                <li><span>Paplet - Pomfret</span><br />Rs 200/-</li>
+                <li><span>Bangra - Mackerel (seasonal)</span><br />Rs 200/-</li>
+                <li><span>Kekada - Crab</span><br />Rs 200/-</li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="menu4">
+              <ul>
+                <li><span>Appam</span><br />Rs 40/-</li>
+                <li><span>Chapati</span><br />Rs 20/-</li>
+                <li><span>Jwarichi Bhakri</span><br />Rs 30/-</li>
+                <li><span>Tandalachi Bhakri</span><br />Rs 40/-</li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="menu5">
+              <ul>
+                <li><span>Plain Dosa</span><br />Rs 50/-</li>
+                <li><span>Masala Dosa</span><br />Rs 50/-</li>
+                <li><span>Mysore Masala Dosa</span><br />Rs 80/-</li>
+                <li><span>Masala Uttapam</span><br />Rs 60/-</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="aboutme">
+      <div class="container">
+        <h1 class="sub-title">More Menues...</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="21.jpg" alt="" />
+            <div class="layer">
+              <h3>Fish thali</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                dolorem magni veritatis autem dolore. Quidem vitae modi dolores
+                repudiandae doloribus!
+              </p>
+              <a href="#">
+                <img src="9.JPG" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="22.jpg" alt="" />
+            <div class="layer">
+              <h3>Aluvadi</h3>
+              <p>
+                is a small coastal town in the Konkan region of Maharashtra,
+                known for its beaches, villas, and beautiful scenery. Alibag is
+                very popular as a weekend getaway from the cities of Mumbai and
+                Pune.
+              </p>
+              <a href="#">
+                <img src="9.JPG" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="23.jpg" alt="" />
+            <div class="layer">
+              <h3>Aamras Puri</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate sint doloremque iusto blanditiis fugit exercitationem,
+                accusantium libero aspernatur nobis, asperiores officiis modi
+                ratione adipisci praesentium!
+              </p>
+              <a href="#">
+                <img src="9.JPG" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more ...</a>
+      </div>
+    </div>
+
+    <!------------ contact ------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+
+            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i>123456789</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">submit</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+    <!--------------------- javascript----------------- -->
+
+    <script>
+      //for removing data
+
+      // Get all elements with the class "tab-links" and "tab-contents"
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        //Remove the "active-link" class from all elements with the class "tab-links"
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+      // Add the "active-link" class to the clicked tab link
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      // Define a function to open the side menu
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      // Define a function to close the side menu
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <!-- ----------------------------------- -->
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzvkXQzpOOr-zPRuVHZLikBjnF4fEtBwQSw0Ji0FhX9Zhs6kfReV7x_9ng-xG_PRnNE/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Messgae sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset;
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
